@@ -1,6 +1,83 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Contact Temaswati Business Consultancy by WhatsApp or email to discuss your business support needs."><title>Contact & Quote Request | Temaswati Business Consultancy</title><link rel="stylesheet" href="styles.css"></head><body>
-<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">T</span><span><strong>TEMASWATI</strong><small>BUSINESS CONSULTANCY</small></span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="packages.html">Packages</a><a class="active nav-cta" href="contact.html">Get a Quote</a></nav></header>
-<main><section class="page-hero"><p class="eyebrow">CONTACT US</p><h1>Tell us what your<br><span>business needs.</span></h1><p>Start with a message. We'll discuss your request and the next steps.</p></section>
-<section class="section contact-grid"><div class="contact-details"><h2>Let's connect.</h2><p>We currently operate online, so you can contact us from wherever you are.</p><div class="contact-item"><span class="contact-symbol">W</span><div><small>WHATSAPP</small><strong>062 397 0498</strong><a href="https://wa.me/27623970498?text=Hello%20Temaswati%20Business%20Consultancy%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener">Message us on WhatsApp →</a></div></div><div class="contact-item"><span class="contact-symbol">@</span><div><small>EMAIL</small><strong>temaswatibizinizconsultancy@gmail.com</strong><a href="mailto:temaswatibizinizconsultancy@gmail.com?subject=Business%20Consultancy%20Enquiry">Send an email →</a></div></div><div class="notice"><strong>Privacy reminder</strong><p>Please don't send passwords, banking credentials or unnecessary identity documents through an initial enquiry. We'll explain what information is needed and how to provide it securely.</p></div></div>
-<form class="quote-form" id="quote-form"><h2>Request a quotation</h2><p>This form opens a prepared email in your email app; it does not store or submit information to a website server.</p><label for="name">Your name *</label><input id="name" name="name" required autocomplete="name"><label for="business">Business name (if applicable)</label><input id="business" name="business" autocomplete="organization"><label for="email">Your email *</label><input id="email" name="email" type="email" required autocomplete="email"><label for="service">Service you need *</label><select id="service" name="service" required><option value="">Choose a service</option><option>Business registration support</option><option>CSD registration or update</option><option>Company profile</option><option>Business plan</option><option>Business documents</option><option>Funding application preparation</option><option>Business administration support</option><option>Other / not sure</option></select><label for="message">Tell us briefly what you need *</label><textarea id="message" name="message" rows="5" required></textarea><button class="button button-red" type="submit">Prepare Email Enquiry</button><p class="form-note">No information is sent until you review and send the email in your email app.</p><div id="form-status" aria-live="polite"></div></form></section></main>
-<footer class="footer"><div class="footer-brand"><a class="brand brand-footer" href="index.html"><span class="brand-mark">T</span><span><strong>TEMASWATI</strong><small>BUSINESS CONSULTANCY</small></span></a><p>From Business Idea to Business Ready.</p></div><div><strong>Explore</strong><a href="about.html">About Us</a><a href="services.html">Services</a><a href="packages.html">Packages</a></div><div><strong>Contact</strong><a href="https://wa.me/27623970498" target="_blank" rel="noopener">WhatsApp: 062 397 0498</a><a href="mailto:temaswatibizinizconsultancy@gmail.com">temaswatibizinizconsultancy@gmail.com</a></div><div class="footer-bottom">© <span data-year></span> Temaswati Business Consultancy. A proposed business division of Temaswati Group. All rights reserved.</div></footer><script src="script.js"></script></body></html>
+<form
+  class="quote-form"
+  id="quote-form"
+  action="https://formspree.io/f/maeqgdwp"
+  method="POST"
+>
+  <h2>Request a quotation</h2>
+
+  <p>
+    Complete the form below and submit your enquiry.
+    Our team will respond using the email address you provide.
+  </p>
+
+  <label for="name">Your name *</label>
+  <input
+    id="name"
+    name="name"
+    type="text"
+    required
+    autocomplete="name"
+  >
+
+  <label for="business">Business name (if applicable)</label>
+  <input
+    id="business"
+    name="business"
+    type="text"
+    autocomplete="organization"
+  >
+
+  <label for="email">Your email *</label>
+  <input
+    id="email"
+    name="email"
+    type="email"
+    required
+    autocomplete="email"
+  >
+
+  <label for="service">Service you need *</label>
+  <select id="service" name="service" required>
+    <option value="">Choose a service</option>
+    <option value="Business registration support">
+      Business registration support
+    </option>
+    <option value="CSD registration or update">
+      CSD registration or update
+    </option>
+    <option value="Company profile">Company profile</option>
+    <option value="Business plan">Business plan</option>
+    <option value="Business documents">Business documents</option>
+    <option value="Funding application preparation">
+      Funding application preparation
+    </option>
+    <option value="Business administration support">
+      Business administration support
+    </option>
+    <option value="Other / not sure">Other / not sure</option>
+  </select>
+
+  <label for="message">Tell us briefly what you need *</label>
+  <textarea
+    id="message"
+    name="message"
+    rows="5"
+    required
+  ></textarea>
+
+  <input
+    type="hidden"
+    name="_subject"
+    value="New Website Enquiry - Temaswati Business Consultancy"
+  >
+
+  <button class="button button-red" type="submit">
+    Submit Enquiry
+  </button>
+
+  <p class="form-note">
+    Your enquiry will be processed securely through our
+    website form service.
+  </p>
+</form>
